@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        .head {
+            margin: auto;
+            width: 700px;
+            height: 30px;
+            border: 2px solid yellow;
+            padding: 10px;
+            box-shadow: 6px 6px yellow;
+            position: absolute;
+            top: 70px;
+            left: 25%;
+            transform: rotate(10deg);
+            font-size: x-large;
+            color: blueviolet;
+            text-shadow: 2px 2px blueviolet;
+        }
+
+        .main {
+            margin: auto;
+            width: 95%;
+            height: 80%;
+            border: 2px dashed black;
+            padding: 10px;
+            position: absolute;
+            top: 210px;
+        }
+
+        .r1 {
+            margin: 1%;
+            width: 500px;
+            height: 40%;
+            border: 2px solid;
+            font-size: larger;
+            text-align: center;
+            border-color: yellow;
+            box-shadow: 3px 3px orange;
+        }
+
+        .left {
+            float: left;
+            height: 100px;
+        }
+
+        .right {
+            float: right;
+            height: 100px;
+        }
+
+        div.r1:nth-child(2n+1) {
+            transform: rotate(-5deg);
+        }
+
+        div.r1:nth-child(2n) {
+            transform: rotate(5deg);
+        }
+        .r1:hover{
+            box-shadow: 3px 3px green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <center>
+            <b>News Clipping for today
+            </b>
+        </center>
+    </div>
+    <div class="main">
+        <br>
+        <div class="left">
+            <div class="r1"> sdbhjasb</div><br><br>
+            <div class="r1">djfnhjd</div><br><br>
+            <div class="r1">dkfndkl</div><br><br>
+            <div class="r1">dknkld</div><br><br>
+            <div class="r1">dlmf</div><br><br>
+        </div>
+        <div class="right">
+            <div class="r1"> dbfdkb</div><br><br>
+            <div class="r1"> snjkldnklj</div><br><br>
+            <div class="r1"> dsbnvfsdn</div><br><br>
+            <div class="r1"> danfbdb</div><br><br>
+            <div class="r1"> dsbvksd</div><br><br>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
